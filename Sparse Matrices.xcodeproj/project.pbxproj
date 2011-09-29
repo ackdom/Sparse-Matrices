@@ -1,0 +1,209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4A527DE1433ED2100E9F6F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4A527DD1433ED2100E9F6F0 /* main.cpp */; };
+		B4A527E01433ED2100E9F6F0 /* Sparse_Matrices.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4A527DF1433ED2100E9F6F0 /* Sparse_Matrices.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4A527D71433ED2100E9F6F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B4A527E01433ED2100E9F6F0 /* Sparse_Matrices.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B4A527D91433ED2100E9F6F0 /* Sparse Matrices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sparse Matrices"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A527DD1433ED2100E9F6F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B4A527DF1433ED2100E9F6F0 /* Sparse_Matrices.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sparse_Matrices.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A527D61433ED2100E9F6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4A527CE1433ED2100E9F6F0 = {
+			isa = PBXGroup;
+			children = (
+				B4A527DC1433ED2100E9F6F0 /* Sparse Matrices */,
+				B4A527DA1433ED2100E9F6F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A527DA1433ED2100E9F6F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A527D91433ED2100E9F6F0 /* Sparse Matrices */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A527DC1433ED2100E9F6F0 /* Sparse Matrices */ = {
+			isa = PBXGroup;
+			children = (
+				B4A527DD1433ED2100E9F6F0 /* main.cpp */,
+				B4A527DF1433ED2100E9F6F0 /* Sparse_Matrices.1 */,
+			);
+			path = "Sparse Matrices";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A527D81433ED2100E9F6F0 /* Sparse Matrices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A527E31433ED2100E9F6F0 /* Build configuration list for PBXNativeTarget "Sparse Matrices" */;
+			buildPhases = (
+				B4A527D51433ED2100E9F6F0 /* Sources */,
+				B4A527D61433ED2100E9F6F0 /* Frameworks */,
+				B4A527D71433ED2100E9F6F0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sparse Matrices";
+			productName = "Sparse Matrices";
+			productReference = B4A527D91433ED2100E9F6F0 /* Sparse Matrices */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A527D01433ED2100E9F6F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CTU;
+			};
+			buildConfigurationList = B4A527D31433ED2100E9F6F0 /* Build configuration list for PBXProject "Sparse Matrices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4A527CE1433ED2100E9F6F0;
+			productRefGroup = B4A527DA1433ED2100E9F6F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A527D81433ED2100E9F6F0 /* Sparse Matrices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A527D51433ED2100E9F6F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A527DE1433ED2100E9F6F0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4A527E11433ED2100E9F6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B4A527E21433ED2100E9F6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B4A527E41433ED2100E9F6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4A527E51433ED2100E9F6F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A527D31433ED2100E9F6F0 /* Build configuration list for PBXProject "Sparse Matrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A527E11433ED2100E9F6F0 /* Debug */,
+				B4A527E21433ED2100E9F6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A527E31433ED2100E9F6F0 /* Build configuration list for PBXNativeTarget "Sparse Matrices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A527E41433ED2100E9F6F0 /* Debug */,
+				B4A527E51433ED2100E9F6F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A527D01433ED2100E9F6F0 /* Project object */;
+}
