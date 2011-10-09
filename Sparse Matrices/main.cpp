@@ -91,8 +91,9 @@ int* generateVector(int rows) {
 void MatrixMatrix(const char* file1, const char* file2) {
     SparseMatrix *A = readSparseMatrix(file1);
     SparseMatrix *B = readSparseMatrix(file2);
-    
-    int **C = createMatrix(A->getRowSize(), B->getColumnSize());
+    int rows = (A->getRowSize());
+    int columns = B->getColumnSize();
+    int **C = createMatrix(rows,columns);
     int y,i,j,x,x2;
     for (y=0; y < 6 ; y++) {
         for(i = A->row_ptr[y]; i < A->row_ptr[y+1]; i++) {
@@ -104,13 +105,20 @@ void MatrixMatrix(const char* file1, const char* file2) {
         }
     }
     
-    for (i = 0; i < 6; i++) {
-        for (j = 0; j < 6; j++) {
+    for (i = 0; i < rows; i++) {
+        for (j = 0; j < columns; j++) {
             cout << C[i][j] << " ";
         }
         cout << endl;
     }
 
+    
+    delete A;
+    delete B;
+    for (i = 0; i < rows; i++) {
+        free(C[i]);
+    }
+    free(C);
 }
 
 void VectorMatrix(const char* file1) {
@@ -130,7 +138,10 @@ void VectorMatrix(const char* file1) {
     for (i = 0; i < A->getRowSize(); i++) {
         cout << y[i] << endl;
     }
-
+    
+    delete A;
+    free(x);
+    free(y);
 }
 
 int main (int argc, const char * argv[]) {   
