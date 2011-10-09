@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B408F58514351CAD002A1682 /* SparseMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B408F58414351CAD002A1682 /* SparseMatrix.cpp */; };
 		B4A527DE1433ED2100E9F6F0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4A527DD1433ED2100E9F6F0 /* main.cpp */; };
 		B4A527E01433ED2100E9F6F0 /* Sparse_Matrices.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4A527DF1433ED2100E9F6F0 /* Sparse_Matrices.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B408F58414351CAD002A1682 /* SparseMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SparseMatrix.cpp; sourceTree = "<group>"; };
+		B408F58714351CCC002A1682 /* SparseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparseMatrix.h; sourceTree = "<group>"; };
+		B4659E5E14421C01001BDF1B /* matrix1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = matrix1; path = build/Debug/matrix1; sourceTree = "<group>"; };
+		B4659E6014421C1B001BDF1B /* matrix2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = matrix2; path = build/Debug/matrix2; sourceTree = "<group>"; };
 		B4A527D91433ED2100E9F6F0 /* Sparse Matrices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sparse Matrices"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A527DD1433ED2100E9F6F0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B4A527DF1433ED2100E9F6F0 /* Sparse_Matrices.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Sparse_Matrices.1; sourceTree = "<group>"; };
@@ -46,6 +51,8 @@
 			children = (
 				B4A527DC1433ED2100E9F6F0 /* Sparse Matrices */,
 				B4A527DA1433ED2100E9F6F0 /* Products */,
+				B4659E5E14421C01001BDF1B /* matrix1 */,
+				B4659E6014421C1B001BDF1B /* matrix2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +69,8 @@
 			children = (
 				B4A527DD1433ED2100E9F6F0 /* main.cpp */,
 				B4A527DF1433ED2100E9F6F0 /* Sparse_Matrices.1 */,
+				B408F58414351CAD002A1682 /* SparseMatrix.cpp */,
+				B408F58714351CCC002A1682 /* SparseMatrix.h */,
 			);
 			path = "Sparse Matrices";
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A527DE1433ED2100E9F6F0 /* main.cpp in Sources */,
+				B408F58514351CAD002A1682 /* SparseMatrix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +212,7 @@
 				B4A527E51433ED2100E9F6F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
